@@ -1,7 +1,6 @@
 const colors = require('colors');
 const argv = require('optimist').argv;
 const axios = require('axios');
-const url = require('url');
 
 let httpObj = {
     successNum : 0,
